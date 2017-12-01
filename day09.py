@@ -2,7 +2,7 @@ from itertools import permutations
 
 lens = []
 
-with open("day9") as file:
+with open("day09") as file:
 	for line in file:
 		lens.append(line.strip().split(" = ")[0].split(" to ") + [int(line.strip().split(" = ")[1])])
 
